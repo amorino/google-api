@@ -1,0 +1,42 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>The Longest Breath</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+
+    <!-- <link rel="stylesheet" href="upload_video.css"> -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans' type='text/css'>
+
+</head>
+
+<body>
+
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="file">
+            <span>Filename:</span>
+        </label>
+        <input type="file" name="file" id="file" accept="video/*;capture=camcorder" />
+        <label for="name">
+            <span>Name:</span>
+        </label>
+        <input type="text" name="name">
+        <br />
+        <input type="submit" name="submit" value="Submit" />
+    </form>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- <script src="https://www.youtube.com/iframe_api"></script> -->
+    <!-- <script src="app.js"></script> -->
+</body>
+
+</html>
